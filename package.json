@@ -1,0 +1,21 @@
+{
+  "name": "babel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js",
+		"watch": "babel --presets react --out-dir public --watch src",
+		"compile": "babel --presets react --out-dir public"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2",
+    "nodemon": "^2.0.15"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.17.0",
+    "@babel/core": "^7.17.2"
+  }
+}
