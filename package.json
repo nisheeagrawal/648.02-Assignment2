@@ -5,17 +5,17 @@
   "main": "server/server.js",
   "scripts": {
     "start": "node server/server.js",
-		"watch": "babel --presets react --out-dir public --watch src",
-		"compile": "babel --presets react --out-dir public"
+    "watch": "babel --presets react --out-dir public --watch src",
+    "compile": "babel --presets react --out-dir public"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.2",
-    "nodemon": "^2.0.15"
+    "react": "^17.0.2"
   },
   "devDependencies": {
-    "@babel/cli": "^7.17.0",
-    "@babel/core": "^7.17.2"
+    "babel-cli": "^6.26.0",
+    "babel-preset-react": "^6.24.1"
   }
 }
